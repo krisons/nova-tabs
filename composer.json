@@ -1,16 +1,9 @@
 {
-    "name": "eminiarts/nova-tabs",
+    "name": "krisons/nova-tabs",
     "description": "Laravel Nova - Tabs.",
     "keywords": [
         "laravel",
         "nova"
-    ],
-    "authors": [
-        {
-            "name": "Emini Arts GmbH",
-            "email": "support@eminiarts.ch",
-            "homepage": "https://eminiarts.ch"
-        }
     ],
     "license": "MIT",
     "require": {
@@ -18,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Eminiarts\\Tabs\\": "src/"
+            "Krisons\\Tabs\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Eminiarts\\Tabs\\TabsServiceProvider"
+                "Krisons\\Tabs\\TabsServiceProvider"
             ]
         }
     },
