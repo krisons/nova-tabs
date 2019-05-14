@@ -17,7 +17,7 @@
     <div class="relationship-tabs-panel card overflow-hidden">
       <div class="flex flex-row">
         <div
-          class="py-5 px-8 border-b-2 focus:outline-none tab cursor-pointer"
+          class="py-5 px-4 border-b-2 focus:outline-none tab cursor-pointer"
           :class="[activeTab == tab.name ? 'text-grey-black font-bold border-primary': 'text-grey font-semibold border-40', tabHasErrors(tab) ? 'text-error' : '' ]"
           v-for="(tab, key) in tabs"
           :key="key"
