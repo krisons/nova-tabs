@@ -7,7 +7,7 @@
       <div class="tabs-wrap border-b-2 border-40 w-full">
         <div class="tabs flex flex-row overflow-x-auto">
           <button
-            class="py-5 px-8 border-b-2 focus:outline-none tab"
+            class="py-5 px-4 border-b-2 focus:outline-none tab"
             :class="[activeTab == tab.name ? 'text-grey-black font-bold border-primary': 'text-grey font-semibold border-40']"
             v-for="(tab, key) in tabs"
             :key="key"
