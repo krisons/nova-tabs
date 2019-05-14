@@ -1,5 +1,5 @@
 <?php
-namespace Eminiarts\Tabs;
+namespace Krisons\Tabs;
 
 use Laravel\Nova\Http\Requests\NovaRequest;
 
