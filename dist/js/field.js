@@ -810,7 +810,7 @@ var render = function() {
                   "button",
                   {
                     key: key,
-                    staticClass: "py-5 px-4 border-b-2 focus:outline-none tab",
+                    staticClass: "py-5 px-4 text-sm border-b-2 focus:outline-none tab",
                     class: [
                       _vm.activeTab == tab.name
                         ? "text-grey-black font-bold border-primary"
